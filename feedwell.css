@@ -203,6 +203,35 @@ main > * {
   border: 5px solid rgba(128, 128, 128, 0.076);
 }
 
+footer {
+  background-color: #1b512d;
+  display: flex;
+  align-items: center;
+  padding: 3.5em 0;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  gap: 5em;
+  margin-top: 10%;
+}
+
+footer h2 {
+  font-size: 2.2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+footer .icons {
+  display: flex;
+  gap: 0.7em;
+  font-size: 2em;
+  align-items: center;
+}
+
+
+
+
 @media (max-width: 1315px) {
   main {
     padding: 3rem 5%;
@@ -314,5 +343,14 @@ main > * {
   }
   main .main__1 {
       padding: 1em !important;
+  }
+    footer h2{
+      font-size: 1.2em;
+  }
+  footer .icons {
+      font-size: 1em;
+  }
+  footer {
+      gap: 2em;
   }
 }

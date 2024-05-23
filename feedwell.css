@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.roots nav {
+  padding: 1.5em 10%;
+  background-color: #1b512d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+nav ul {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.1em;
+  padding-bottom: 0.3em;
+  transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+  border-bottom: 1px solid white;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 10%;
+  align-items: center;
+}
+
+main .main__1 {
+  background-color: #efffde;
+  padding: 2.5em 3em;
+}
+
+main .main__1__img {
+  width: 100%;
+  height: 700px;
+  background-image: url(./Mask\ group-1.png);
+  background-size: cover;
+  background-position: center center;
+  transition: 0.5s ease;
+}
+
+main > * {
+  flex-basis: 45%;
+}
+
+.main__1 header {
+  margin-bottom: 1.5em;
+}
+
+.main__1 header h1 {
+  font-size: 3em;
+  color: #73e2a7;
+}
+
+.main__1 .main__1__sub {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.main__1__sub h2 {
+  color: #73e2a7;
+  margin-bottom: 0.5em;
+  font-family: sans-serif;
+}
+
+.main__1__sub ul {
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  gap: 0.5em;
+}
+
+.main__1__sub ul li {
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+
+.background_problem_obj_mores {
+  padding: 5rem 19%;
+}
+
+.background_problem_obj_mores header {
+  margin-bottom: 2em;
+}
+
+.background_problem_obj_mores header > h1 {
+  text-transform: capitalize;
+  font-size: 3em;
+  color: #73e2a7;
+}
+
+.background_problem_obj_mores * p,
+.research_goals ul li {
+  font-size: 1.4em;
+  color: #555;
+  line-height: 2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+}
+
+.background p,
+.research_goals ul li {
+  margin-bottom: 1.4em;
+}
+
+.background_problem_obj_mores > div {
+  margin-bottom: 5em;
+}
+
+.user_research .user_research-img {
+  width: 100%;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(./User\ Research.png);
+}
+
+.user_persona .user_persona_more_info,
+.user_touchpoints_more_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user_persona_more_info .info,
+.user_touchpoints_more_info,
+.user_flow_img {
+  background-size: cover;
+  background-position: center center;
+}
+
+.user_persona_more_info .info_1 {
+  flex-basis: 30%;
+  height: 500px;
+  background-image: url(./Group\ woman\ DP.png);
+}
+.user_persona_more_info .info_2 {
+  flex-basis: 68%;
+  min-height: 1200px;
+  background-image: url(./Maria\ DP\ info.png);
+}
+
+.user_touchpoints_more_info .touchpoints {
+  width: 39%;
+  height: 300px;
+  border: 5px solid rgba(128, 128, 128, 0.076);
+}
+
+.user_touchpoints_more_info .touchpoints_1 {
+  background-image: url(./touchPoint1.png);
+}
+.user_touchpoints_more_info .touchpoints_2 {
+  background-image: url(./touchPoint2.png);
+}
+
+.user_flow .user_flow_img {
+  width: 100%;
+  height: 550px;
+  background-image: url(./UserFlow.png);
+  border: 5px solid rgba(128, 128, 128, 0.076);
+}
+.horizontal_sitemap_img {
+  width: 100%;
+  height: 550px;
+  background-image: url(./HorizontalSitemaps.png);
+  border: 5px solid rgba(128, 128, 128, 0.076);
+}
+
+.lofi_img {
+  width: 100%;
+  height: 1550px;
+  background-image: url(./Lofi\ img.png);
+  border: 5px solid rgba(128, 128, 128, 0.076);
+}
+
+.ui_kits_img {
+  width: 100%;
+  height: 600px;
+  background-image: url(./uiKits.png);
+  border: 5px solid rgba(128, 128, 128, 0.076);
+}
+
+.hi-hi-img {
+  width: 100%;
+  height: 1660px;
+  background-image: url(./hi-f-.png);
+  border: 5px solid rgba(128, 128, 128, 0.076);
+}
+
+@media (max-width: 1315px) {
+  main {
+    padding: 3rem 5%;
+  }
+  main > * {
+    flex-basis: 50%;
+  }
+  .main__1 .main__1__sub {
+    width: 100%;
+  }
+  .background_problem_obj_mores {
+    padding: 5rem 5%;
+  }
+}
+
+@media (max-width: 1010px) {
+  .main__1 header h1 {
+    font-size: 2em;
+  }
+  .main__1__sub h2 {
+    font-size: 1.2em;
+  }
+  .main__1__sub ul li {
+    font-size: 0.8em;
+  }
+  main .main__1__img {
+    height: 300px;
+  }
+  .user_research .user_research-img {
+    min-height: 250px;
+  }
+  .user_persona_more_info .info_1 {
+    flex-basis: 20%;
+    height: 300px;
+  }
+  .user_persona_more_info .info_2 {
+    flex-basis: 70%;
+    height: 300px;
+  }
+  .background_problem_obj_mores img {
+    width: 50% !important;
+  }
+  .background_problem_obj_mores header > h1 {
+    font-size: 1.8em;
+  }
+  .background_problem_obj_mores * p,
+  .research_goals ul li {
+    font-size: 1em;
+  }
+  .user_touchpoints_more_info img {
+    width: 30% !important;
+  }
+  .hi-fi,
+  .ui_kits,
+  .lofi,
+  .horizontal_sitemaps,
+  .user_flow {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  main .main__1__img {
+    height: 150px;
+  }
+  .main__1 header h1 {
+    font-size: 1.3em;
+  }
+  .main__1 header p {
+    font-size: 0.7em;
+  }
+  .main__1__sub h2 {
+    font-size: 0.9em;
+  }
+  .main__1__sub ul li {
+    font-size: 0.4em;
+  }
+  nav img {
+    width: 60px;
+  }
+  nav ul {
+    gap: 2em !important;
+  }
+  nav a {
+    font-size: 0.8em !important;
+  }
+  .background_problem_obj_mores header > h1 {
+    font-size: 1em;
+  }
+  .background_problem_obj_mores * p,
+  .research_goals ul li {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 455px) {
+  .user_persona_more_info .info_1 {
+    flex-basis: 45%;
+    height: 250px;
+  }
+  .main__1 header h1 {
+    font-size: 1em;
+  }
+  .main__1 header p {
+    font-size: 0.6em;
+  }
+  main .main__1 {
+      padding: 1em !important;
+  }
+}

@@ -6,10 +6,10 @@
 }
 
 nav {
-  padding: 2em 0%;
+  padding: 1.5em 10%;
   background-color: #1b512d;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 a {
@@ -153,6 +153,15 @@ footer .icons {
 }
 
 @media (max-width: 750px) {
+  nav ul {
+    gap: 2em !important;
+  }
+  nav img {
+    width: 80px;
+  }
+  nav a {
+    font-size: 0.8em !important;
+  }
   main .main__1__img {
     height: 300px !important;
   }
@@ -181,6 +190,9 @@ footer .icons {
 }
 
 @media (max-width: 560px) {
+      nav img {
+            width: 60px;
+      }
   nav ul {
     gap: 2em !important;
   }
@@ -200,11 +212,14 @@ footer .icons {
     font-size: 0.9em;
   }
   footer {
-      padding: 2em 0;
+    padding: 2em 0;
   }
 }
 
 @media (max-width: 350px) {
+      nav ul {
+            gap: 0.8em !important;
+      }
   main .main__1__img {
     height: 150px !important;
   }
@@ -218,10 +233,10 @@ footer .icons {
     padding: 1.5rem 2.5% !important;
   }
   .btn__download a {
-      font-size: 1em !important;
-      padding: 0.6em 1.2em;
+    font-size: 1em !important;
+    padding: 0.6em 1.2em;
   }
   nav a {
-      font-size: 0.9em !important;
+    font-size: 0.8em !important;
   }
 }

@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+nav {
+  padding: 2em 0%;
+  background-color: #1b512d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+nav ul {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  font-size: 1.3em;
+  /* border-bottom: 1px solid #eee; */
+  padding-bottom: 0.5em;
+}
+
+nav hr {
+  width: 50%;
+  margin: 5px auto;
+  display: block;
+  border: 1.5px solid #eee;
+  border-radius: 500px;
+}
+
+main > * {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+main .main__1__img {
+  width: 100%;
+  height: 700px;
+  background-image: url(./Mask\ group-2.png);
+  background-size: cover;
+  background-position: center center;
+  transition: 0.5s ease;
+}
+.main__1__img:hover {
+  transform: scale(1.07, 1.07);
+  cursor: pointer;
+}
+main {
+  display: flex;
+  justify-content: center;
+  padding: 3em 10%;
+  align-items: center;
+}
+main .main__1 h1 {
+  color: #73e2a7;
+  font-size: 3.5em;
+}
+
+main .main__1 p {
+  line-height: 2em;
+  font-size: 2em;
+  padding: 1em 0 0 0;
+}
+
+main .main__1 {
+  margin-top: 2em;
+  background-color: #efffde;
+  padding: 3em;
+}
+
+main .main__1 h2 {
+  margin-top: 0.5em;
+  font-size: 2em;
+  font-style: oblique;
+}
+
+.paragraph {
+  padding: 2em 10%;
+}
+
+.paragraph p {
+  font-size: 1.5em;
+  text-align: justify;
+}
+
+.btn__download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2em 0;
+}
+
+.btn__download a {
+  background-color: #73e2a7;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 1em 2.5em;
+  border: none;
+  border-radius: 7px;
+}
+
+.btn__download button:hover {
+  background-color: #73e2a7ea;
+}
+
+footer {
+  background-color: #1b512d;
+  display: flex;
+  align-items: center;
+  padding: 3.5em 0;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  gap: 5em;
+  margin-top: 10%;
+}
+
+footer h2 {
+  font-size: 2.2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+footer .icons {
+  display: flex;
+  gap: 0.7em;
+  font-size: 2em;
+  align-items: center;
+}
+
+@media (max-width: 1660px) {
+  main {
+    padding: 3rem 5% !important;
+  }
+  main .main__1__img {
+    height: 500px;
+  }
+  main .main__1 h1 {
+    font-size: 2em;
+  }
+  main .main__1 h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 750px) {
+  main .main__1__img {
+    height: 300px !important;
+  }
+  .paragraph p {
+    font-size: 1.1em;
+  }
+  .paragraph {
+    padding: 2em 5%;
+  }
+  .btn__download a {
+    font-size: 1.2em;
+    padding: 0.7em 1.5em;
+  }
+  footer h2 {
+    font-size: 1em !important;
+  }
+  footer h2 {
+    font-size: 1.2em;
+  }
+  footer .icons {
+    font-size: 1em;
+  }
+  footer {
+    gap: 2em;
+  }
+}
+
+@media (max-width: 560px) {
+  nav ul {
+    gap: 2em !important;
+  }
+  main .main__1 h1 {
+    font-size: 1.2em;
+  }
+  main .main__1 h2 {
+    font-size: 0.9em;
+  }
+  main .main__1 {
+    padding: 2em 0.5em;
+  }
+  main .main__1__img {
+    height: 220px !important;
+  }
+  .paragraph p {
+    font-size: 0.9em;
+  }
+  footer {
+      padding: 2em 0;
+  }
+}
+
+@media (max-width: 350px) {
+  main .main__1__img {
+    height: 150px !important;
+  }
+  main .main__1 h1 {
+    font-size: 0.8em !important;
+  }
+  main .main__1 h2 {
+    font-size: 0.7em !important;
+  }
+  main {
+    padding: 1.5rem 2.5% !important;
+  }
+  .btn__download a {
+      font-size: 1em !important;
+      padding: 0.6em 1.2em;
+  }
+  nav a {
+      font-size: 0.9em !important;
+  }
+}
